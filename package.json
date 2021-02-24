@@ -1,0 +1,48 @@
+{
+  "name": "ToDo-App",
+  "version": "1.0.0",
+  "description": "To do items for task management",
+  "main": "index.js",
+  "scripts": {
+    "start": " babel-node ./server/server.js",
+    "dev-start": " nodemon --exec babel-node ./server/server.js",
+    "prod-start": "SET NODE_ENV=production & nodemon --exec babel-node ./server/server.js",
+    "debug": "ndb --exec babel-node ./server/server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/nzambazamariya/ToDo-App"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-node": "0.0.1-security",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  },
+  "author": "nzambazamariya",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.15.3"
+  },
+  "bugs": {
+    "url": "https://github.com/nzambazamariya/ToDo-App"
+  },
+  "homepage": "https://github.com/nzambazamariya/ToDo-App"
+}
